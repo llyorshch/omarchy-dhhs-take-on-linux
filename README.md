@@ -1,11 +1,11 @@
 # Omarchy: DHH's take on Linux
 
-Presentación creada con [Slidev](https://sli.dev).
+Presentation built with [Slidev](https://sli.dev).
 
 ```bash
 npm install
-npm run dev     # servidor local en http://localhost:3030
-npm run build   # genera dist/
+npm run dev     # local server at http://localhost:3030
+npm run build   # builds into dist/
 ```
 
-Se publica automáticamente en GitHub Pages en cada push a `main`.
+It is automatically deployed to GitHub Pages on every push to `main`.
