@@ -7,12 +7,15 @@ transition: slide-left
 mdc: true
 ---
 
-# Omarchy
+<h1 class="!text-8xl !font-bold !mb-6">Omarchy</h1>
 
-DHH's take on Linux
+<p class="!text-4xl opacity-80">DHH's take on Linux</p>
 
-<div class="pt-12">
-  <span class="px-2 py-1 rounded">Press space for next slide →</span>
+---
+
+<div class="h-full grid grid-cols-2 gap-10 items-center">
+  <h1 class="!text-6xl !font-bold !leading-tight">First, the basics, in case you've been living under a rock</h1>
+  <img src="/under-a-rock.svg" alt="A confused creature peeking out from under a rock, asking Who's DHH?" class="w-full" />
 </div>
 
 ---
@@ -262,11 +265,29 @@ Bridge to the next slide: Omarchy doesn't make sense as a technical decision, it
 
 ---
 
+<div class="h-full flex flex-col">
+
 # What is Omarchy?
 
-- Built on Arch Linux
-- Hyprland as the window manager
-- Opinionated, ready-to-use configuration
+<p class="text-2xl leading-relaxed !mt-6 opacity-90">
+A beautiful, opinionated Linux desktop by DHH, built on Arch and Hyprland and fully set up out of the box.
+</p>
+
+<div class="flex-1 min-h-0">
+  <OmarchyLogo />
+</div>
+
+</div>
+
+---
+
+<div class="h-full grid grid-cols-2 gap-10 items-center">
+  <div>
+    <h1 class="!text-5xl !font-bold !leading-tight">OK, but why are we even talking about DHH and Omarchy?</h1>
+    <p class="!text-3xl !leading-snug opacity-70 !mt-6">Isn't it just another Linux distro that will soon be forgotten?</p>
+  </div>
+  <img src="/why.svg" alt="A woman with her hand on her chin, wondering: Why?" class="w-full" />
+</div>
 
 ---
 layout: center

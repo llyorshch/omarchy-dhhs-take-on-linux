@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="A confused creature peeking out from under a rock, asking Who's DHH?">
+  <!-- speech bubble -->
+  <g>
+    <rect x="18" y="16" width="168" height="54" rx="16" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+    <path d="M120 68 L140 104 L146 68 Z" fill="#ffffff" stroke="#1f2937" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="122" y="64" width="22" height="7" fill="#ffffff"/>
+    <text x="102" y="51" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="800" fill="#1f2937">Who's DHH?</text>
+  </g>
+
+  <!-- floating question marks -->
+  <g font-family="system-ui, sans-serif" font-weight="900" fill="#f59e0b">
+    <text x="262" y="52" font-size="34" transform="rotate(-12 262 52)">?</text>
+    <text x="318" y="78" font-size="46" transform="rotate(10 318 78)">?</text>
+    <text x="360" y="42" font-size="26" transform="rotate(-4 360 42)">?</text>
+  </g>
+
+  <!-- ground -->
+  <ellipse cx="200" cy="268" rx="190" ry="12" fill="#d6c7a8"/>
+  <path d="M10 266 Q200 258 390 266" stroke="#a08b66" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- dark gap under the rock -->
+  <ellipse cx="205" cy="246" rx="148" ry="24" fill="#111827"/>
+
+  <!-- eyes peeking out -->
+  <ellipse cx="184" cy="248" rx="13" ry="14" fill="#ffffff"/>
+  <ellipse cx="220" cy="248" rx="13" ry="14" fill="#ffffff"/>
+  <!-- slightly cross-eyed: not entirely up to date -->
+  <circle cx="190" cy="250" r="5.5" fill="#111827"/>
+  <circle cx="214" cy="250" r="5.5" fill="#111827"/>
+  <circle cx="192" cy="248" r="1.8" fill="#ffffff"/>
+  <circle cx="216" cy="248" r="1.8" fill="#ffffff"/>
+
+  <!-- pebbles propping the rock up -->
+  <ellipse cx="62" cy="258" rx="20" ry="11" fill="#6b7280"/>
+  <ellipse cx="346" cy="257" rx="17" ry="10" fill="#6b7280"/>
+
+  <!-- the rock -->
+  <path d="M38 238 C26 186 70 128 146 112 C214 97 300 108 344 150 C378 182 380 222 366 238 C300 230 110 230 38 238 Z" fill="#8b9098" stroke="#374151" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M84 150 C112 128 170 118 214 120 C176 132 128 146 96 172 Z" fill="#a9aeb5"/>
+  <path d="M250 128 L262 158 L252 184 M262 158 L288 170" stroke="#5b616b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M120 196 L150 206 L168 198" stroke="#5b616b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- moss, because nobody has moved this rock in years -->
+  <path d="M150 114 C158 102 172 104 176 112 C184 102 200 104 202 114 C190 118 164 120 150 114 Z" fill="#65a30d"/>
+  <path d="M300 118 C308 110 320 114 322 124 C314 126 304 124 300 118 Z" fill="#65a30d"/>
+</svg>

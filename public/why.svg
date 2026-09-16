@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="A woman with her hand on her chin, wondering: Why?">
+  <!-- soft backdrop -->
+  <circle cx="262" cy="196" r="118" fill="#e0f2fe"/>
+
+  <!-- thought bubble: outline pass, then fill pass hides inner seams -->
+  <g stroke="#1f2937" stroke-width="6" fill="#1f2937">
+    <circle cx="82" cy="76" r="34"/>
+    <circle cx="124" cy="58" r="40"/>
+    <circle cx="170" cy="76" r="32"/>
+    <circle cx="106" cy="102" r="30"/>
+    <circle cx="150" cy="104" r="28"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="82" cy="76" r="34"/>
+    <circle cx="124" cy="58" r="40"/>
+    <circle cx="170" cy="76" r="32"/>
+    <circle cx="106" cy="102" r="30"/>
+    <circle cx="150" cy="104" r="28"/>
+  </g>
+  <text x="126" y="92" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="34" font-weight="800" fill="#1f2937">Why?</text>
+  <circle cx="184" cy="134" r="8" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="197" cy="154" r="5" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- floating question marks -->
+  <g font-family="system-ui, sans-serif" font-weight="900" fill="#f59e0b">
+    <text x="330" y="96" font-size="40" transform="rotate(12 330 96)">?</text>
+    <text x="364" y="136" font-size="26" transform="rotate(-8 364 136)">?</text>
+  </g>
+
+  <!-- body -->
+  <path d="M168 300 C170 242 206 222 262 222 C318 222 354 242 356 300 Z" fill="#0d9488" stroke="#1f2937" stroke-width="3.5" stroke-linejoin="round"/>
+  <rect x="248" y="198" width="28" height="30" fill="#f2c7a5" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- hair behind the head -->
+  <path d="M206 170 C200 118 228 96 262 96 C298 96 324 118 318 170 C316 190 306 204 298 208 L226 208 C218 204 208 190 206 170 Z" fill="#4a2c20" stroke="#1f2937" stroke-width="3.5" stroke-linejoin="round"/>
+  <circle cx="262" cy="86" r="18" fill="#4a2c20" stroke="#1f2937" stroke-width="3.5"/>
+
+  <!-- head -->
+  <ellipse cx="262" cy="160" rx="46" ry="50" fill="#f2c7a5" stroke="#1f2937" stroke-width="3.5"/>
+  <!-- fringe -->
+  <path d="M218 150 C222 118 244 106 264 106 C288 106 306 120 308 146 C292 130 270 124 250 128 C236 132 226 140 218 150 Z" fill="#4a2c20"/>
+
+  <!-- eyes glancing up and to the left, deep in thought -->
+  <ellipse cx="244" cy="160" rx="8" ry="9" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <ellipse cx="280" cy="160" rx="8" ry="9" fill="#ffffff" stroke="#1f2937" stroke-width="2"/>
+  <circle cx="241" cy="156" r="4" fill="#1f2937"/>
+  <circle cx="277" cy="156" r="4" fill="#1f2937"/>
+
+  <!-- one sceptical raised eyebrow -->
+  <path d="M234 144 L254 146" stroke="#1f2937" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M270 142 Q280 132 292 136" stroke="#1f2937" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- mouth pushed to one side -->
+  <path d="M254 188 Q264 184 276 186" stroke="#1f2937" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <!-- arm up, fist on chin -->
+  <path d="M196 300 L236 220" stroke="#1f2937" stroke-width="36" stroke-linecap="round"/>
+  <path d="M196 300 L236 220" stroke="#0d9488" stroke-width="29" stroke-linecap="round"/>
+  <circle cx="246" cy="208" r="17" fill="#f2c7a5" stroke="#1f2937" stroke-width="3.5"/>
+  <path d="M238 200 Q246 196 254 200" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+</svg>
