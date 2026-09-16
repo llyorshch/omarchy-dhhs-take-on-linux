@@ -28,43 +28,205 @@ DHH's take on Linux
 <div class="grid grid-cols-2 gap-x-10 gap-y-3 pt-8">
 
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Persuasive</span>
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">💎</span>
+    <span class="font-bold text-lg">Ruby on Rails</span>
+  </span>
+  <span class="opacity-60 text-sm">2004 &middot; still project lead today</span>
+</div>
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">🏢</span>
+    <span class="font-bold text-lg">37signals</span>
+  </span>
+  <span class="opacity-60 text-sm">co-founder &amp; CTO &middot; Basecamp, HEY, ONCE</span>
+</div>
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">📚</span>
+    <span class="font-bold text-lg">REWORK</span>
+  </span>
+  <span class="opacity-60 text-sm">NYT bestseller &middot; four books with Jason Fried</span>
+</div>
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">🏆</span>
+    <span class="font-bold text-lg">Best Hacker 2005</span>
+  </span>
+  <span class="opacity-60 text-sm">Google &amp; O&rsquo;Reilly award, for Rails</span>
+</div>
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">🏁</span>
+    <span class="font-bold text-lg">Le Mans</span>
+  </span>
+  <span class="opacity-60 text-sm">class win, LMGTE Am &middot; 2014</span>
+</div>
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">☁️</span>
+    <span class="font-bold text-lg">Leaving the cloud</span>
+  </span>
+  <span class="opacity-60 text-sm">off AWS &middot; ~$2M/year saved, numbers published</span>
+</div>
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">🍎</span>
+    <span class="font-bold text-lg">Beating Apple</span>
+  </span>
+  <span class="opacity-60 text-sm">HEY vs the App Store &middot; 2020 &middot; Apple blinked</span>
+</div>
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">🐧</span>
+    <span class="font-bold text-lg">Omakub &rarr; Omarchy</span>
+  </span>
+  <span class="opacity-60 text-sm">2024 &middot; started at Le Mans, between sessions</span>
+</div>
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">🤖</span>
+    <span class="font-bold text-lg">Omarchy Quattro</span>
+  </span>
+  <span class="opacity-60 text-sm">1,000+ PRs merged in three months</span>
+</div>
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-64 flex-none flex items-baseline gap-1.5">
+    <span class="text-lg">✍️</span>
+    <span class="font-bold text-lg">The manifestos</span>
+  </span>
+  <span class="opacity-60 text-sm">Omakase &middot; Rails Doctrine &middot; TDD is Dead</span>
+</div>
+
+</div>
+
+<!--
+The achievements, in rough order of how much they built his name.
+
+Ruby on Rails (2004) - the headline. Extracted from the Basecamp codebase rather
+than designed in the abstract. Popularised convention over configuration and made
+Ruby mainstream almost single-handedly. GitHub, Shopify, Airbnb, Square, Zendesk,
+Coinbase and early Twitter all built on it. Twenty years on, still project lead.
+
+37signals - co-founder and CTO with Jason Fried. Basecamp, HEY (email, 2020),
+ONCE (software you buy once and host yourself instead of renting forever).
+Deliberately small, profitable, no venture capital.
+
+Books - REWORK hit the NYT bestseller list. Also Getting Real, REMOTE, and
+It Doesn't Have to Be Crazy at Work. These reached people who will never write
+a line of code, and did as much for his profile as Rails did.
+
+Best Hacker of the Year 2005 - awarded by Google and O'Reilly for Rails.
+
+Le Mans - a serious second career, not a hobby. Raced the 24 Hours multiple times
+and took a class win in LMGTE Am in 2014.
+
+Leaving the cloud (2022-23) - moved 37signals off AWS back onto own hardware and
+published the numbers, around $2M/year saved. Open-sourced the tooling (Kamal).
+Ran straight against industry consensus and forced a real debate.
+
+Beating Apple (2020) - Apple threatened to pull HEY from the App Store over
+in-app purchase rules. He took it public, loudly. Apple backed down and adjusted
+its rules; it fed into the wider regulatory pressure on app store economics.
+
+Omakub then Omarchy - Omakub came first, on Ubuntu. Omarchy went "seven layers
+deeper down the stack", onto Arch and Hyprland. He started it in summer 2024
+between sessions at the 24 Hours of Le Mans, after watching too many Linux
+ricing videos.
+
+Omarchy Quattro - the current version, according to him built essentially
+entirely by AI agents under his direction. 1,000+ pull requests merged in three
+months, many from contributors who are not traditional programmers.
+
+The manifestos - Rails is Omakase, The Rails Doctrine, TDD is Dead. Each one
+started a fight that consumed the industry for months. He writes as well as he
+codes, and that is the underrated half of the story.
+
+Not on the slide, but say it if asked: the controversies are real and
+inseparable from the fame. The 2021 Basecamp ban on political discussion at work
+cost roughly a third of the staff.
+-->
+
+---
+
+<div class="flex items-center gap-6">
+  <img src="/dhh.jpg" alt="David Heinemeier Hansson" class="w-32 h-32 rounded-full object-cover flex-none shadow-lg" />
+  <div>
+    <h1 class="!mb-0">What is DHH like?</h1>
+    <p class="opacity-60 !mt-1">David Heinemeier Hansson</p>
+  </div>
+</div>
+
+<div class="grid grid-cols-2 gap-x-10 gap-y-3 pt-8">
+
+<div v-click class="flex items-baseline gap-3">
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">🗣️</span>
+    <span class="font-bold text-xl">Persuasive</span>
+  </span>
   <span class="opacity-60 text-sm">doesn't argue, converts</span>
 </div>
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Vehement</span>
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">🔥</span>
+    <span class="font-bold text-xl">Vehement</span>
+  </span>
   <span class="opacity-60 text-sm">no lukewarm register</span>
 </div>
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Opinionated</span>
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">🍣</span>
+    <span class="font-bold text-xl">Opinionated</span>
+  </span>
   <span class="opacity-60 text-sm">chooses for you, by design</span>
 </div>
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Reversible</span>
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">🔄</span>
+    <span class="font-bold text-xl">Reversible</span>
+  </span>
   <span class="opacity-60 text-sm">changes his mind in public</span>
 </div>
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Prolific</span>
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">📦</span>
+    <span class="font-bold text-xl">Prolific</span>
+  </span>
   <span class="opacity-60 text-sm">the output is real</span>
 </div>
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Aesthetic</span>
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">🎨</span>
+    <span class="font-bold text-xl">Aesthetic</span>
+  </span>
   <span class="opacity-60 text-sm">taste over technique</span>
 </div>
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Contrarian</span>
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">🙃</span>
+    <span class="font-bold text-xl">Contrarian</span>
+  </span>
   <span class="opacity-60 text-sm">allergic to consensus</span>
 </div>
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Provocative</span>
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">🌶️</span>
+    <span class="font-bold text-xl">Provocative</span>
+  </span>
   <span class="opacity-60 text-sm">seeks the friction</span>
 </div>
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Romantic</span>
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">🌹</span>
+    <span class="font-bold text-xl">Romantic</span>
+  </span>
   <span class="opacity-60 text-sm">thinks in epics, not metrics</span>
 </div>
 <div v-click class="flex items-baseline gap-3">
-  <span class="font-bold text-xl w-40 flex-none">Self-indulgent</span>
+  <span class="w-52 flex-none flex items-baseline gap-1.5">
+    <span class="text-xl">🪞</span>
+    <span class="font-bold text-xl">Self-indulgent</span>
+  </span>
   <span class="opacity-60 text-sm">the flip side of all of it</span>
 </div>
 
