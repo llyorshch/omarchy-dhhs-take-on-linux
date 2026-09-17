@@ -289,6 +289,17 @@ A beautiful, opinionated Linux desktop by DHH, built on Arch and Hyprland and fu
   <img src="/why.svg" alt="A woman with her hand on her chin, wondering: Why?" class="w-full" />
 </div>
 
+
+---
+
+# DHH's and Omarchy's uniqueness
+- DHH is disruptive and does not sacrifice his vision for the sake of consensus
+- Now, DHH is focused in Linux. Macs are no longer good. 
+- DHH is a developer with strong developer opinions
+- DHH has traction between developers --> [GH contributions](https://github.com/omacom/omarchy/graphs/contributors?from=9%2F19%2F2024&to=1%2F1%2F2026) 
+- DHH can raise a lot of funding --> [Omacon Patrons](https://omarchy.org/patrons/)
+- Omarchy was born during the explosion of agentic development
+
 ---
 layout: center
 class: text-center
