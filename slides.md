@@ -506,9 +506,9 @@ class: text-center
 
 <p>Every contribution to open source software adds up. <strong>Hyprland</strong>, <strong>Mise</strong> and others will get funding that other distributions will benefit from.</p>
 
-<p>Omarchy is setting the foundation for other distributions, especially in the way AI is integrated as a first-class citizen.</p>
+<p>Omarchy is setting the foundation, especially in the way AI is integrated as a first-class citizen.</p>
 
-<p>Future Linux distributions &mdash; not driven by DHH, AI-first, and aimed beyond developers &mdash; will be built on top of Omarchy's ideas.</p>
+<p>Future Linux distributions &mdash; not driven by DHH, AI-first, and aimed beyond developers &mdash; will be built on top of some Omarchy's ideas.</p>
 
 </div>
 </div>
