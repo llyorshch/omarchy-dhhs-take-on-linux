@@ -284,7 +284,6 @@ A beautiful, opinionated Linux desktop by DHH, built on Arch and Hyprland and fu
 <div class="h-full grid grid-cols-2 gap-10 items-center">
   <div>
     <h1 class="!text-5xl !font-bold !leading-tight">OK, but why are we even talking about DHH and Omarchy?</h1>
-    <p class="!text-3xl !leading-snug opacity-70 !mt-6">Isn't it just another Linux distro that will soon be forgotten?</p>
   </div>
   <img src="/why.svg" alt="A woman with her hand on her chin, wondering: Why?" class="w-full" />
 </div>
@@ -292,13 +291,241 @@ A beautiful, opinionated Linux desktop by DHH, built on Arch and Hyprland and fu
 
 ---
 
-# DHH's and Omarchy's uniqueness
-- DHH is disruptive and does not sacrifice his vision for the sake of consensus
-- Now, DHH is focused in Linux. Macs are no longer good. 
-- DHH is a developer with strong developer opinions
-- DHH has traction between developers --> [GH contributions](https://github.com/omacom/omarchy/graphs/contributors?from=9%2F19%2F2024&to=1%2F1%2F2026) 
-- DHH can raise a lot of funding --> [Omacon Patrons](https://omarchy.org/patrons/)
-- Omarchy was born during the explosion of agentic development
+# DHH's and Omarchy's uniqueness 💎
+
+<v-clicks>
+
+- He is disruptive, and never trades his vision for consensus
+- His focus is now Linux &mdash; in his view, the Mac has stopped being good
+- He is a developer, with strong developer opinions
+- He has real traction among developers &mdash; [GitHub contributors](https://github.com/omacom/omarchy/graphs/contributors?from=9%2F19%2F2024&to=1%2F1%2F2026)
+- He can raise serious money &mdash; [Omarchy patrons](https://omarchy.org/patrons/)
+- And Omarchy was born right as agentic development exploded
+
+</v-clicks>
+
+<div v-click class="pt-8">
+  <p class="!text-4xl !font-bold !leading-tight text-teal-600">
+    Will DHH and Omarchy win the Linux desktop, as they claim?
+  </p>
+</div>
+
+<!--
+Six reasons this is not just another distro. The last one is the argument that
+ties the talk together: the timing is what makes it different.
+
+Traction: 41,700+ stars on omacom/omarchy, and DHH says 1,000+ pull requests
+merged in three months, many from people who are not traditional programmers.
+
+On the Mac: his complaint is that a locked-down, curated platform is a hostile
+place for agents and development work. In the interview: "the Mac is just a
+hostile place to be. It just has walls all over the place." The irony he enjoys
+is that Linux's supposed flaws - arcane config files, cryptic errors - are
+exactly what agents handle well.
+-->
+---
+
+# Omarchy timeline
+
+<div class="h-full flex items-center">
+<div class="relative w-full">
+
+  <div class="absolute left-0 right-0 top-1/2 -translate-y-1/2 h-1 bg-gray-200 rounded"></div>
+
+  <div class="relative grid grid-cols-7 gap-1">
+  <div v-click class="flex flex-col items-center">
+    <div class="h-28 w-full flex flex-col justify-end items-center text-center pb-3"><div class="text-xs font-bold text-teal-600">May 2024</div><div class="font-bold text-sm leading-tight">Omakub</div><div class="text-xs opacity-50 leading-tight">the first attempt, on Ubuntu</div></div>
+    <div class="w-4 h-4 rounded-full bg-teal-500 ring-4 ring-white flex-none"></div>
+    <div class="h-28 w-full flex flex-col justify-start items-center text-center pt-3"></div>
+  </div>
+  <div v-click class="flex flex-col items-center">
+    <div class="h-28 w-full flex flex-col justify-end items-center text-center pb-3"></div>
+    <div class="w-4 h-4 rounded-full bg-teal-500 ring-4 ring-white flex-none"></div>
+    <div class="h-28 w-full flex flex-col justify-start items-center text-center pt-3"><div class="text-xs font-bold text-teal-600">Jun 2025</div><div class="font-bold text-sm leading-tight">Omarchy</div><div class="text-xs opacity-50 leading-tight">restarted on Arch + Hyprland</div></div>
+  </div>
+  <div v-click class="flex flex-col items-center">
+    <div class="h-28 w-full flex flex-col justify-end items-center text-center pb-3"><div class="text-xs font-bold text-teal-600">Jul 2025</div><div class="font-bold text-sm leading-tight">v1.0</div><div class="text-xs opacity-50 leading-tight">first public releases</div></div>
+    <div class="w-4 h-4 rounded-full bg-teal-500 ring-4 ring-white flex-none"></div>
+    <div class="h-28 w-full flex flex-col justify-start items-center text-center pt-3"></div>
+  </div>
+  <div v-click class="flex flex-col items-center">
+    <div class="h-28 w-full flex flex-col justify-end items-center text-center pb-3"></div>
+    <div class="w-4 h-4 rounded-full bg-teal-500 ring-4 ring-white flex-none"></div>
+    <div class="h-28 w-full flex flex-col justify-start items-center text-center pt-3"><div class="text-xs font-bold text-teal-600">Aug 2025</div><div class="font-bold text-sm leading-tight">v2.0</div></div>
+  </div>
+  <div v-click class="flex flex-col items-center">
+    <div class="h-28 w-full flex flex-col justify-end items-center text-center pb-3"><div class="text-xs font-bold text-teal-600">Sep 2025</div><div class="font-bold text-sm leading-tight">v3.0</div></div>
+    <div class="w-4 h-4 rounded-full bg-teal-500 ring-4 ring-white flex-none"></div>
+    <div class="h-28 w-full flex flex-col justify-start items-center text-center pt-3"></div>
+  </div>
+  <div v-click class="flex flex-col items-center">
+    <div class="h-28 w-full flex flex-col justify-end items-center text-center pb-3"></div>
+    <div class="w-4 h-4 rounded-full bg-teal-500 ring-4 ring-white flex-none"></div>
+    <div class="h-28 w-full flex flex-col justify-start items-center text-center pt-3"><div class="text-xs font-bold text-teal-600">Aug 2026</div><div class="font-bold text-sm leading-tight">v4.0 Quattro</div><div class="text-xs opacity-50 leading-tight">built by agents, start to finish</div></div>
+  </div>
+  <div v-click class="flex flex-col items-center">
+    <div class="h-28 w-full flex flex-col justify-end items-center text-center pb-3"><div class="text-xs font-bold text-teal-600">Today</div><div class="font-bold text-sm leading-tight">v4.0.4</div><div class="text-xs opacity-50 leading-tight">41,700+ stars</div></div>
+    <div class="w-4 h-4 rounded-full bg-teal-500 ring-4 ring-white flex-none"></div>
+    <div class="h-28 w-full flex flex-col justify-start items-center text-center pt-3"></div>
+  </div>
+  </div>
+
+</div>
+</div>
+
+<!--
+Dates come from the GitHub repos, not from memory.
+
+May 2024 - omacom/omakub created. The Ubuntu-based first attempt, now retired;
+DHH calls it "fine", but he was building on someone else's foundation.
+
+June 2025 - omacom/omarchy created. Restarted "seven layers deeper down the
+stack" on Arch and Hyprland, begun between sessions at the 24 Hours of Le Mans.
+
+July to September 2025 - v1, v2 and v3 in roughly a month each. Note the pace:
+three major versions in three months, still largely hand-written at the start.
+
+August 2026 - v4.0, Quattro. The version DHH says was written essentially
+entirely by agents under his direction. This is the point of the whole talk.
+
+Today - v4.0.4, 41,700+ stars. Omakub has about 8,000 by comparison.
+
+If asked why v3 to v4 took eleven months while v1 to v3 took three: the earlier
+numbers were small increments, and Quattro was a much larger rebuild.
+-->
+
+---
+class: text-white
+---
+
+<img src="/quattro.jpg" alt="" class="absolute inset-0 w-full h-full object-cover" />
+<div class="absolute inset-0 bg-black/60"></div>
+
+<div class="relative">
+
+# Omarchy Quattro
+
+<v-clicks>
+
+- Full Quickshell-based desktop shell
+- [Omarchy plugins](https://plugins.omarchy.org/)
+- Dual boot
+- Setup for a different owner and factory reset
+- ISO under 6GB
+- Sub-minute installs are possible
+
+</v-clicks>
+
+</div>
+
+
+---
+
+
+# Omarchy's Quirks and Features 🛠️
+<v-clicks>
+
+- Arch + Hyprland + Quickshell
+- Arch packages + AUR + mise
+- The Omarchy Menu
+- The top bar
+- Themes
+- Backgrounds
+- Terminal
+- Neovim
+- GUIs and TUIs 
+</v-clicks>
+---
+
+# Omarchy and AI 🍑
+<v-clicks>
+
+
+- All major coding agents pre-wired in the launcher and managed by mise
+- "Default agent" integrated
+- The Omarchy skill (and all desktop shell and tools AI-friendly)
+- Top bar AI bot icon
+- Dictation
+- Caffeine
+</v-clicks>
+
+
+<img v-click src="/face-rub.jpg" alt="An overwhelmed man rubbing his face with both hands" class="absolute right-10 bottom-10 w-52 drop-shadow-xl" />
+
+---
+
+# Omarchy - The Gripes 🫤
+<v-clicks>
+
+
+- Bloatware: 1Password, Basecamp, Hey, Spotify, X. (even with keyboard shortcuts!)
+- Learning curve, specially to keep your hand away from the mouse
+- You can't just hand your computer to anyone
+- The fanboys. (Mostly ex-Apple fanboys? 🤔)
+- If you don't like DHH, you need to accept to separate the artist from his work
+</v-clicks>
+
+---
+
+# Omarchy - The Joys 🚀
+<v-clicks>
+
+- Once you get used to it, it's addictive.
+- It's fast! Even in old Intel Macbooks.
+- Nice backgrounds, nice fonts, nice retro-style aesthetic.
+- Claude fixed Display configuration, Soundcard performance, Bluetooth, Wifi and keyboard backlight. AWESOME.
+- Gaming! Steam, Retroarch, Minecraft...
+</v-clicks>
+
+
+---
+layout: center
+class: text-center
+---
+
+<h1 class="!text-6xl !font-bold !leading-tight">Will DHH and Omarchy win the Linux desktop?</h1>
+
+---
+layout: center
+class: text-center
+---
+
+<p class="!text-[16rem] !font-black !leading-none !my-0">No.</p>
+
+---
+layout: center
+class: text-center
+---
+
+<p class="!text-3xl !my-0">but</p>
+
+---
+
+<div class="h-full flex items-center">
+<div class="text-2xl leading-relaxed space-y-6">
+
+<p>Every contribution to open source software adds up. <strong>Hyprland</strong>, <strong>Mise</strong> and others will get funding that other distributions will benefit from.</p>
+
+<p>Omarchy is setting the foundation for other distributions, especially in the way AI is integrated as a first-class citizen.</p>
+
+<p>Future Linux distributions &mdash; not driven by DHH, AI-first, and aimed beyond developers &mdash; will be built on top of Omarchy's ideas.</p>
+
+</div>
+</div>
+
+<!--
+The turn of the talk. "No" is the honest answer on market share: the desktop
+Linux numbers are not going to flip, and claiming otherwise would cost you the
+room. But that is the wrong scoreboard.
+
+The argument: Omarchy's contribution is upstream and conceptual, not measured in
+installs. Funding flows to Hyprland, Mise and the rest of the stack, and every
+other distribution inherits that work. The AI-as-first-class-citizen design is
+the part that gets copied.
+
+Land it plainly: whoever eventually does win the Linux desktop will be standing
+on ideas that Omarchy proved first.
+-->
 
 ---
 layout: center

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="An overwhelmed man rubbing his face with both hands">
+  <!-- light disc so the dark linework reads on a photo background -->
+  <circle cx="150" cy="150" r="146" fill="#f8fafc" opacity="0.94"/>
+
+  <!-- shoulders -->
+  <path d="M40 300 C44 248 88 224 150 224 C212 224 256 248 260 300 Z" fill="#475569" stroke="#1f2937" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- neck -->
+  <rect x="134" y="196" width="32" height="34" fill="#f2c7a5" stroke="#1f2937" stroke-width="3.5"/>
+
+  <!-- head -->
+  <ellipse cx="150" cy="142" rx="60" ry="66" fill="#f2c7a5" stroke="#1f2937" stroke-width="4"/>
+
+  <!-- hair -->
+  <path d="M92 128 C88 84 118 66 150 66 C184 66 212 84 208 128 C200 104 178 92 150 92 C122 92 100 104 92 128 Z" fill="#33251c" stroke="#1f2937" stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- eyebrows, knotted above the hands -->
+  <path d="M112 120 Q126 112 138 118" stroke="#1f2937" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M162 118 Q174 112 188 120" stroke="#1f2937" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- mouth, flat and unimpressed, below the hands -->
+  <path d="M130 186 Q150 180 170 186" stroke="#1f2937" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- hands dragging down the face -->
+  <g stroke="#1f2937" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M96 134 C74 136 66 152 74 168 C82 186 106 190 124 180 C136 174 140 158 134 146 C128 134 112 132 96 134 Z" fill="#f2c7a5"/>
+    <path d="M204 134 C226 136 234 152 226 168 C218 186 194 190 176 180 C164 174 160 158 166 146 C172 134 188 132 204 134 Z" fill="#f2c7a5"/>
+    <path d="M88 146 L118 150 M88 158 L118 160 M90 170 L116 170" fill="none" stroke-width="3"/>
+    <path d="M212 146 L182 150 M212 158 L182 160 M210 170 L184 170" fill="none" stroke-width="3"/>
+  </g>
+
+  <!-- rubbing motion -->
+  <g stroke="#94a3b8" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M52 150 Q44 160 52 170"/>
+    <path d="M36 144 Q26 160 36 176"/>
+    <path d="M248 150 Q256 160 248 170"/>
+    <path d="M264 144 Q274 160 264 176"/>
+  </g>
+</svg>
